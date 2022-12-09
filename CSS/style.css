@@ -1,0 +1,454 @@
+
+/* Universal Start */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.secondary{
+    color: orange;
+}footer
+
+
+img-responsive{
+    width: 100%;
+}
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+
+button{
+    color: #fff;
+    padding: 2.5%;
+    background-image: linear-gradient(to right, orange ,rgb(243, 70, 70));
+    border-radius: 25px;
+    cursor: pointer;
+    border: transparent;
+    
+}
+
+ button:hover{
+    background-image: linear-gradient(to left, orange ,rgb(243, 70, 70));
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* Universal End*/
+/* <!-- -- 
+----
+------
+--------
+----------- --> */
+/* <!-- Nav Section Start --> */
+
+ .navBar{
+    position: sticky;
+    top: 0;
+    background-color: rgba(245, 173, 173, 0.788);
+    padding-bottom: 1%;
+ }
+
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    height: 10vh;
+
+  
+    
+}
+
+.navBar a{
+    text-decoration: none;
+    font-weight: 800;
+    
+    
+}
+
+.topNav .logo a{
+    color: #111;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topNav .logo a span{
+    color: rgb(255, 255, 255);
+}
+
+.topNav .navItems{
+    margin-right: 1%;
+}
+
+.topNav .navItems a{
+    margin-right: 1em;
+    color: rgb(128, 122, 122);
+}
+
+.topNav .navItems a:hover{
+    color: orange;
+}
+
+
+/* <!-- Nav Section End --> */
+ /* <!-- -- 
+----
+------
+--------
+----------- -- !> */
+/* Welcome Section Start */
+
+
+
+.welcomeMain{
+    display: flex;
+    /* border: 2px solid; */
+    margin: 0 5%;
+}
+
+.welcomeMain .welcomeLeft{
+    padding-top: 0%; 
+    width: 70%;
+} 
+
+.welcomeMain .welcomeRight{
+    width: 70%;
+    
+    
+}
+
+.welcomeMain .welcomeRight img{
+     max-width: 100%;
+    max-height: 80vh;
+} 
+
+.welcomeLeft h1{
+    font-size: 2em;
+    padding-bottom: 3%;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.welcomeLeft h1 span{
+    color: rgb(255, 255, 255);
+    
+}
+
+.welcomeLeft p{
+    color: gray;
+    padding-bottom: 7%;
+}
+
+
+
+/* Welcome Section End */
+ /* <!-- -- 
+----
+------
+--------
+----------- -- !> */
+/* About Section Start */
+
+section.about{
+    background-image: url('../img/7.png');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* width: 100vw; */
+    /* border: 2px solid; */
+    background-size: cover;
+    
+}
+
+.aboutMain{
+    display: flex;
+    /* border: 2px solid; */
+    margin: 0 5%;
+    margin-top: 10%;
+    
+
+    
+}
+
+.aboutMain .aboutLeft{
+    width: 50%;
+    margin-top: 10%;
+}
+
+.aboutMain .aboutRight{
+    width: 50%;
+    margin-top: 10%;
+}
+
+.aboutMain .aboutRight h1{
+    padding-bottom: 4%;
+}
+.aboutMain .aboutRight p{
+    padding-bottom: 10%;
+}
+
+.aboutMain .aboutLeft img {
+    max-width: 100%;
+    max-height: 80vh;
+    /* width: 100px; */
+}
+
+
+
+
+
+
+/* About Section End */
+ /* <!-- -- 
+----
+------
+--------
+----------- -- !> */
+/* kksection Section Start */
+.header .login-form {
+    position: absolute;
+    top: 115%;
+    right: -105%;
+    background: rgb(48, 48, 48);
+    border-radius: .5rem;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    width: 35rem;
+    padding: 2rem;
+  }
+  
+  .header .login-form.active {
+    right: 2rem;
+    -webkit-transition: .4s linear;
+    transition: .4s linear;
+  }
+  
+  .header .login-form h3 {
+    color: #222;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: .7rem;
+  }
+  
+  .header .login-form .box {
+    margin: .7rem 0;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    padding: 1rem 1.2rem;
+    font-size: 1.5rem;
+    color: #222;
+    text-transform: none;
+    width: 100%;
+  }
+  
+  .header .login-form .remember {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: .5rem;
+    margin: .7rem 0;
+  }
+  
+  .header .login-form .remember label {
+    font-size: 1.5rem;
+    color: #666;
+    cursor: pointer;
+  }
+  
+  .header .login-form .btn {
+    margin: 1rem 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .header .login-form p {
+    color: #666;
+    padding-top: .7rem;
+    font-size: 1.4rem;
+  }
+  
+  .header .login-form p a {
+    color: #bac34e;
+  }
+  
+  .header .login-form p a:hover {
+    text-decoration: underline;
+  }
+  
+  #menu-btn {
+    display: none;
+  }
+  
+  @-webkit-keyframes fadeLeft {
+    0% {
+      -webkit-transform: translateX(-5rem);
+              transform: translateX(-5rem);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fadeLeft {
+    0% {
+      -webkit-transform: translateX(-5rem);
+              transform: translateX(-5rem);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes fadeUp {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fadeUp {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      opacity: 0;
+    }
+  }
+.kksection{
+    margin-top: 5%;
+}
+
+.recipieControl{
+    display: flex;
+}
+
+.recBox{
+    /* border: 2px solid; */
+    padding: 5%;
+    margin: 5%;
+    box-shadow:5px 10px 10px 5px rgba(0, 0, 0, 0.1) ;
+    border-radius: 4%;
+    
+}
+
+.recBox img{
+    max-width: 100%;
+    margin-bottom: 20%;
+    
+}
+
+
+
+
+
+
+
+
+/* kksection Section End */
+ /* <!-- -- 
+----
+------
+--------
+----------- -- !> */
+/* Status Bar Start */
+
+.statusBar{
+    /* border: 2px solid; */
+    margin: 4% 2%;
+    padding: 3%;
+    box-shadow:10px 10px 10px 10px  rgba(0, 0, 0, 0.2) ;
+    border-radius: 20px;
+}
+
+.statusMain{
+    display: flex;
+    justify-content: space-between;
+}
+/* Status Bar End */
+ /* <!-- -- 
+----
+------
+--------
+----------- -- !> */
+/* Car Setcion Start */
+
+
+
+.Cars{
+    margin-top: 5%;
+}
+
+.CarArea{
+    display: flex;
+    
+}
+
+
+.CarBox{
+    /* border: 2px solid; */
+    padding: 5%;
+    margin: 5%;
+    box-shadow:5px 10px 10px 5px rgba(0, 0, 0, 0.1) ;
+    border-radius: 4%;
+    border: 2px solid;
+
+    
+    
+}
+
+.CarBox img{
+    max-width: 100%;
+    
+    
+}
+
+.imgDesc h2 {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 2%;
+}
+
+
+
+/* Car Setcion End */
+/* footer Start */
+section.footer{
+    background-color: rgb(195, 194, 194);
+    margin-top: 5%;
+
+}
+.footer h1 span{
+    color: rgb(255, 255, 255);
+}
+.footer h1{
+    color: rgb(239, 177, 114);
+    padding-top: 3%;
+}
+
+.footer h3{
+    color: rgb(238, 214, 95);
+    padding: 2% 0;
+}
+/* footer end */
+
